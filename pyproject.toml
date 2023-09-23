@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hw-1-web"
+version = "0.1.0"
+description = ""
+authors = ["Artyom Guryanov <bishop81285@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_1_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
